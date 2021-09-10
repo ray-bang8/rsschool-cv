@@ -88,7 +88,58 @@ _Front-end duties_:
     * optimization;
     * work with sound effect;
 
+__Hobbies__
+---
 
+   * Reading fantasy book;
+
+   * Playing on piano;
+
+   * Yoga;
+
+   * Playing video games;
+
+   * Growing plants and flowers;
+
+
+__Skills__
+---
+
+  * Creativity;
+
+  * Adaptibility;
+
+  * Management skills;
+
+  * Technical skills;
+
+  * Critical thinking;
+
+  * Self-education;
+
+
+
+__Briefly about myself__
+---
+
+Being a student of the energy university, I always dreamed of becoming a programmer.I entered this university because there was no opportunity and funds to choose IT.And now, after graduation, I entered the programming school and am actively studying my favorite profession. I use every opportunity to gain knowledge and develop in this area.My purpose is to become a professional in this field.
+
+
+#### Code example:
+
+##### Get the Middle Character KATA from Codewars:
+_You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters_.
+
+```javascript
+function getMiddle(s)
+{
+  if(s.length%2 == 0) {
+    return s.slice(s.length/2 - 1, s.length/2 + 1)
+  } else {
+    return s.slice(s.length/2, s.length/2 + 1)
+  }
+}
+```
 
 
 
