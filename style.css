@@ -203,3 +203,39 @@ align-items: center;
     height: 100%;
     background: #03a9f4;
 }
+.qualification .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.box .course_year {
+    min-width: 150px;
+}
+.qualification .box .course_year h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+.interest ul {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.interest ul li {
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa{
+    color: #;
+}

@@ -5,6 +5,9 @@
         <title>CV using HTML&CSS</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
     </head>
     <body>
         <!-- <main> -->
@@ -154,6 +157,70 @@
                             </div>
                         </div>
                     </div>
+                    <div class="qualification">
+                        <h2 class="title2">qualification courses</h2>
+                        <div class="box">
+                            <div class="course_year">
+                                <h5>2021</h5>
+                            </div> 
+                            <div class="text">
+                                Online course on Udemy.Javascript from zero to expert
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="course_year">
+                                <h5>2021</h5>
+                            </div> 
+                            <div class="text">
+                                Online course on Udemy.Websocket
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="course_year">
+                                <h5>2021.09-present</h5>
+                            </div> 
+                            <div class="text">
+                                Rolling scope school.Frontend developer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code"><h2 class="title2">Code example</h2>
+                    <pre>
+                        <code>
+    function createDreamTeam( members ) {
+        if (members == null) {
+          return false
+        }
+        var ans = [];
+        for (var i = 0; i < members.length;i++){
+          if( typeof members[i] === 'string') {
+            ans.push(members[i])
+          }
+        }     
+        return ans.map(function(x) {
+          return x.trim().split(' ')[0][0].toUpperCase()
+        })
+        .sort()
+        .join('')
+    }
+                        </code>
+                    </pre>
+                    
+                    </div>
+                    <div class="about interest">
+                        <h2 class="title2">Interest</h2>
+                        <ul>
+                            <li><i class="fa fa-book" aria-hidden="true"></i>Reading fantasy books</li>
+                            <li><i class="fa fa-gamepad" aria-hidden="true"></i>Playing video games</li>
+                            <li><i class="fa fa-grav" aria-hidden="true"></i>Yoga</li>
+                            <li><i class="fa fa-leaf" aria-hidden="true"></i>Gardening</li>
+                            <li><i class="fa fa-trophy" aria-hidden="true"></i>Playing Dungeons and Dragons</li>
+                            <li><i class="fa fa-music" aria-hidden="true"></i>Playing on piano</li>
+                            <li><i class="fa fa-paw" aria-hidden="true"></i>Volunteering</li>
+                        </ul>
+                    </div>
+                    
+                </div>
                 </div>
             </div>
         <!-- </main> -->
