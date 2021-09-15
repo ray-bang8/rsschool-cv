@@ -9,6 +9,7 @@
 body {
     background: lightblue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -24,7 +25,7 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px;
+    margin: 50px 50px 15px 50px;
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -237,5 +238,56 @@ pre code {
 }
 
 .interest ul li .fa{
-    color: #;
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+
+@media(max-width: 1000px){
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width: 600px){
+    .about .box {
+        flex-direction: column;
+    }
+    .about .box .year_company {
+
+        margin-bottom: 5px;
+    }
+    .interest ul {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+footer{
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003147;
+    opacity: 0.7;
+}
+
+.link .fa{
+    font-size: 50px;
+    color: #fff;
+}
+
+.logo {
+    
+    height: 100%;
+}
+.logo img {
+    height: 50%;
+    margin: 25px 25px;
+}
+.created {
+    color: #fff;
+    justify-self: flex-end;
 }
