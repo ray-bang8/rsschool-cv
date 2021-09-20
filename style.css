@@ -243,14 +243,46 @@ pre code {
     width: 20px;
 }
 
+
 @media(max-width: 1000px){
     .container {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
     }
-    .interest ul {
+    /* .interest ul {
         grid-template-columns: repeat(2,1fr);
+    } */
+     .interest ul {
+        display: flex;
+        flex-direction: column;
     }
+    .about .box .year_company{
+        font-size: 25px;
+
+    }
+    .qualification .box .course_year {
+        font-size: 25px;
+    }
+    .qualification .box .text {
+        font-size: 25px;
+    }
+    .about .box {
+        font-size: 25px;
+    }
+    .about .text {
+        font-size: 25px;
+    }
+    .interest_item {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .webapp h3, .webapp h4 {
+        font-size: 10px;
+    }
+    .webapp ul li{
+        font-size: 10px;
+    }
+
 }
 @media(max-width: 600px){
     .about .box {
@@ -260,10 +292,16 @@ pre code {
 
         margin-bottom: 5px;
     }
-    .interest ul {
+   
+    /* .interest ul {
         grid-template-columns: repeat(1,1fr);
-    }
+    } */
+    /* .interest ul {
+        display: flex;
+        flex-direction: column;
+    } */
 }
+
 footer{
     height: 100px;
     width: 1000px;
@@ -290,4 +328,17 @@ footer{
 .created {
     color: #fff;
     justify-self: flex-end;
+}
+
+.webapp {
+    list-style: none;
+    line-height: 3.2em;
+}
+
+.webapp ul li {
+    color: #333;
+}
+.webapp a {
+    text-decoration: none;
+    color: #003147;
 }
